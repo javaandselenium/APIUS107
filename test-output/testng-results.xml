@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-15T08:21:50 IST" name="Default suite" finished-at="2021-07-15T08:21:55 IST" duration-ms="5660">
+  <suite started-at="2021-07-17T08:14:44 IST" name="Default suite" finished-at="2021-07-17T08:14:50 IST" duration-ms="6107">
     <groups>
     </groups>
-    <test started-at="2021-07-15T08:21:50 IST" name="Default test" finished-at="2021-07-15T08:21:55 IST" duration-ms="5660">
-      <class name="parameterization.Demo">
-        <test-method signature="test5()[pri:0, instance:parameterization.Demo@6a03bcb1]" started-at="2021-07-15T08:21:50 IST" name="test5" finished-at="2021-07-15T08:21:55 IST" duration-ms="5559" status="PASS">
+    <test started-at="2021-07-17T08:14:44 IST" name="Default test" finished-at="2021-07-17T08:14:50 IST" duration-ms="6107">
+      <class name="pojo.Demo">
+        <test-method signature="tc2()[pri:0, instance:pojo.Demo@672872e1]" started-at="2021-07-17T08:14:44 IST" name="tc2" finished-at="2021-07-17T08:14:50 IST" duration-ms="5997" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test5 -->
-      </class> <!-- parameterization.Demo -->
+        </test-method> <!-- tc2 -->
+      </class> <!-- pojo.Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
