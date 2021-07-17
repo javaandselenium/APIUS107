@@ -4,19 +4,18 @@ import static io.restassured.RestAssured.*;
 
 import org.testng.annotations.Test;
 
-import io.restassured.http.ContentType;
-
 public class Test0 {
 	@Test
-	public void gettc() {
+	public void tc1() {
 		given()
-		.get("http://localhost:3000/posts")
+		.get("https://api.github.com/repos/javaandselenium/Gitproject")
 		.then()
 		.log().all()
 		.assertThat().statusCode(200)
-		.contentType(ContentType.JSON)
-		.assertThat().header("Cache-Control","no-cache")
-		.assertThat().header("Access-Control-Allow-Credentials","true");
+		.assertThat().header("Server","GitHub.com")
+		.assertThat().header("X-Content-Type-Options","nosniff");
+		
 		
 	}
+
 }
