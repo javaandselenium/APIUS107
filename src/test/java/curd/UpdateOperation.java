@@ -12,12 +12,12 @@ public class UpdateOperation {
 	@Test
 	public void tc3() {
 		JSONObject j=new JSONObject();
-		j.put("title","sample");
+		j.put("title","NatanyaPython");
 		
 		RequestSpecification update = RestAssured.given().baseUri("http://localhost:3000")
 	                                .contentType(ContentType.JSON)
 	                                .body(j);
-		Response resp = update.patch("/posts/400");
+		Response resp = update.patch("/posts/2001");
 	resp.prettyPrint();
 	
 	

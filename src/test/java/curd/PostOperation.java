@@ -12,8 +12,8 @@ public class PostOperation {
 	@Test
 	public void tc2() {
 		JSONObject j=new JSONObject();
-		j.put("id",400);
-		j.put("title","demoapitestingus");
+		j.put("id",2001);
+		j.put("title","python123");
 		
 		RequestSpecification request = RestAssured.given().baseUri("http://localhost:3000")
 				                .contentType(ContentType.JSON)

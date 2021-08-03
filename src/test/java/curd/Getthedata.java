@@ -12,8 +12,8 @@ public class Getthedata {
 	public void tc1() {
 		Response resp = RestAssured.get(" http://localhost:3000/posts");
 		System.out.println(resp.asString());
-		//you want to JSON format
-		resp.prettyPrint();
+
+
 	}
 
 }
